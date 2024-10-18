@@ -1,7 +1,7 @@
 # MPI
 Modelarea Matematica a unui Pendul Inversat si simularea acestuia
 
-Introducere
+Introducere \n
 Pendulul inversat este compus dintr-o tijă rigidă montată pe un cărucior, iar provocarea constă în menținerea pendulului în poziția verticală, folosind tehnici de control PID. Proiectul a fost realizat în MATLAB, unde am implementat modelul sistemului, am proiectat un controler PID și am evaluat performanța și stabilitatea sistemului.
 Modelarea și Simularea Sistemului
 Modelul pendulului inversat a fost derivat din ecuațiile de mișcare, utilizând metodele Lagrange și Newton. Funcția de transfer a fost obținută prin linearizarea ecuațiilor în jurul punctului de echilibru instabil. Inițial, sistemul a fost analizat fără control, iar simularea răspunsului impuls a evidențiat instabilitatea sistemului. În continuare, a fost implementat un controler PID pentru a stabiliza pendulul, iar parametrii Kp, Ki și Kd au fost ajustați pentru a obține un răspuns optim.
