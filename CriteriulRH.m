@@ -1,6 +1,5 @@
 clc
 clear all
-syms k;
 coef =[0.88 18 0.738 0];
     poliPozitivi=0;
     n = length(coef);
